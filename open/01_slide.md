@@ -1,29 +1,33 @@
 !SLIDE
-# TITLE #
-## <span style="color: black;">foo</span> ##
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<p style="text-align: right;">
-	(rick bradley - <a href="mailto:rick@rickbradley.com">rick@rickbradley.com</a> // OG Consulting)
-</p>
+    zomg: domain-driven            rick bradley
+          test-assisted            OG Consulting
+          production 
+          rails 
+          crisis interventions
 
 
-!SLIDE full-page
 
-### On the git hubs:  
-### http://github.com/flogic/whiskey_disk
+<img src="og_logo.png" style="position: absolute; left: 710px; top: 360px">
 
-<br/>
-<br/>
-<br/>
-<br/>
 
-<img src="og_logo.png">
+!SLIDE smaller
+
+    Slides:
+
+    http://github.com/rick/presentation_railsconf_2010
+
+
+
+    Live:
+
+    http://railsconf2010.rickbradley.com/
+
+
+!SLIDE  smaller
+
+    OG Consulting
+
+        Nashville-based Ruby consultancy
+
+                   . . . . . .         
