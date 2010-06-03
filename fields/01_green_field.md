@@ -32,6 +32,14 @@
 
 [ doing the "easy" work ]
 
-!SLIDE larger
+!SLIDE smaller
 
-[ facebook for goats ]
+<img src="goat.jpg" class="goat">
+
+<br/>
+
+                                   [ facebook for goats ]
+
+<div class="photo-credits">
+ photo: <a href="http://www.flickr.com/photos/tambako/4279930262/">tambako</a>
+</div>

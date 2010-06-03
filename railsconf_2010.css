@@ -19,6 +19,27 @@ blockquote {
   font-size: 2em;
 }
 
+.goat {
+  position: absolute;
+  top: 100px;
+  height: 600px;
+  width:  450px;
+}
+
+.photo-credits {
+  position: absolute;
+  top: 700px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 1em;
+  color: #333;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #333;
+}
+
 .highlight {
   color: yellow;
 }
