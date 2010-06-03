@@ -10,6 +10,22 @@
 
 <img src="og_logo.png" id="opening_logo">
 
+!SLIDE
+     
+     
+                                    
+     aka: a journey                rick bradley
+          into dank                OG Consulting
+          to save 
+          your stank       
+          (app)                      
+                                
+                                
+                                        
+                              
+
+
+<img src="og_logo.png" id="opening_logo">
 
 !SLIDE smaller
 
