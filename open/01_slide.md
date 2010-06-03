@@ -8,7 +8,7 @@
 
 
 
-<img src="og_logo.png" style="position: absolute; left: 710px; top: 360px">
+<img src="og_logo.png" id="opening_logo">
 
 
 !SLIDE smaller

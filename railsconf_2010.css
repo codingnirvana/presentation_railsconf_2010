@@ -5,6 +5,12 @@ body, #preso, .slide {
   margin: none;
 }
 
+#opening_logo {
+  position: absolute; 
+  left: 710px; 
+  top: 360px;
+}
+
 blockquote {
   color: white;
 }
