@@ -17,5 +17,13 @@
 
 !SLIDE larger
 
-    \0/
+           \0/
+
+!SLIDE full-page
+
+<img src="101sssb.png">
+
+!SLIDE full-page
+
+<img src="trebek.png">
 
