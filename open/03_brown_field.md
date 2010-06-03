@@ -1,4 +1,4 @@
-!SLIDE  smaller
+!SLIDE
 
         "mud field" applications
 
@@ -27,9 +27,8 @@
 
 !SLIDE larger
 
-[ but there are always core problems that keep them from "launching" ]
+[ but there are always core problems that keep it from "launching" ]
 
 !SLIDE larger
 
 [ often it would be best to just kill the project ]
-

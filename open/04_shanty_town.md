@@ -1,39 +1,47 @@
-!SLIDE  smaller
-
-        "shanty town" applications
-
-        you want to bulldoze
-        but people actually live here
-
 !SLIDE
 
-[ shanty town ]
+    "shanty town" applications
 
-!SLIDE  smaller
+!SLIDE larger
 
-        "shanty town" applications
+[ you want to bulldoze ]
 
-        some sort of functioning leadership
-        since otherwise it would be a mud field
+!SLIDE larger
 
-!SLIDE
+[ but people actually live here ]
 
-[ code is typically a mess ]
+!SLIDE  larger
 
-!SLIDE
+[ some sort of functioning leadership ]
 
-[ the members of the team who made the mess may or may not still be around ]
+!SLIDE  larger
 
-!SLIDE
+[ otherwise it would be a mud field ]
+
+!SLIDE larger
+
+[ the code is a mess ]
+
+!SLIDE larger
+
+[ the people who made the mess may still be around ]
+
+!SLIDE larger
 
 [ the motivations for forward motion are often making things worse ]
 
+!SLIDE larger
+
 [ "sell to our competitors" ] 
+
+!SLIDE larger
+
 [ "eradicate the old system" ]
+
+!SLIDE larger
+
 [ "take our company public" ]
-[ "nobody's ever seen anything this great" ]
 
-!SLIDE
+!SLIDE larger
 
-    How can we make things better
-    without killing whatever's already good?
+[ "this shit is great" ]
