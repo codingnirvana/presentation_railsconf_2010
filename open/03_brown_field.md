@@ -2,39 +2,34 @@
 
         "mud field" applications
 
-        all the mess of Bonnaroo, 
-        none of the hassles of real users
+        what was once a green field is now
+        a muddy mess, without being in production
 
-!SLIDE
+!SLIDE  larger
 
-[ mud field ]
+[ all the mess of Bonnaroo ]
 
-!SLIDE  smaller
+!SLIDE  larger
 
-        "mud field" applications
+[ none of the hassles of real users ]
 
-        relentless product "visionaries"
-        misunderstandings of technologies and markets
+!SLIDE  larger
 
-!SLIDE
+[ relentless product "visionaries" ]
 
-[ product visionaries ]
+!SLIDE  larger
 
-!SLIDE
+[ misunderstandings of technologies and markets ]
 
-    We see more "mud field" apps than I would 
-    have expected, especially in a recession.
-
-!SLIDE
+!SLIDE larger
 
 [ it's easier to refactor since there are no heavy users ]
 
-!SLIDE
+!SLIDE larger
 
-[ but you have to root out the core problems keeping them from having users,
-  the tendency is going to be to continue doing whatever they do that keeps
-  them from ever launching to production ]
+[ but there are always core problems that keep them from "launching" ]
 
-!SLIDE
+!SLIDE larger
 
 [ often it would be best to just kill the project ]
+

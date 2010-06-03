@@ -20,18 +20,18 @@
     "Green field" applications are what 
             most programmers want
 
-!SLIDE
+!SLIDE larger
 
 [ you can be a beautiful unique snowflake ]
 
-!SLIDE
+!SLIDE larger
 
 [ unencumbered by someone else's garbage ]
 
-!SLIDE
+!SLIDE larger
 
-[ easier work ]
+[ doing the "easy" work ]
 
-!SLIDE
+!SLIDE larger
 
 [ facebook for goats ]
