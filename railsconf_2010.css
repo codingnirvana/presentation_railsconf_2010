@@ -26,6 +26,9 @@ blockquote {
   width:  450px;
 }
 
+a { text-decoration: none; color: #00b6d6; }
+a:visited { text-decoration: none; color: #00b6d6; }
+
 .photo-credits {
   position: absolute;
   top: 700px;
@@ -35,7 +38,7 @@ blockquote {
   color: #333;
 }
 
-a:visited {
+.photo-credits a:visited {
   text-decoration: none;
   color: #333;
 }
