@@ -1,37 +1,37 @@
-!SLIDE  smaller
+
+!SLIDE
 
     Front-end is King
 
-       "We spent $30K on graphic design and HTML and 
-        we've got $5K left to get some coding done."      
+!SLIDE larger
 
-!SLIDE  smaller
+[ "We spent $30K on graphic design and HTML ... "]
 
-    Front-end is King
+!SLIDE larger
 
-       The interaction exposed on the front-end
-       *IS* the "domain model".
+["and we've got $5K left to get some coding done."]
 
-!SLIDE
+!SLIDE larger
 
-[ focus on JS magic, AJAX interactions ]
+[ focus on JS magic & AJAX interactions ]
 
-!SLIDE
+!SLIDE larger
 
-[ occasional UI revamps, "new look" ]
+[ with occasional UI revamps ]
 
-!SLIDE
+!SLIDE larger
 
-[ the story backlog is primarily filled with trivial 
-  but time-consuming bugs in the UI ]
+[ check out our New Look™ ! ]
 
-!SLIDE
+!SLIDE larger
 
-[ domain modelling is an afterthought, implementation is
-  crammed in to fit behind whatever convoluted workflow 
-  the UI suggests ]
+[ backlog is filled with trivial but time-consuming UI bugs ]
 
-!SLIDE
+!SLIDE larger
 
-[ no use of presenters or true MVC abstractions to buffer
-  the domain model from the front-end ]
+[ failure to decouple the domain model from the front-end ]
+
+!SLIDE  larger
+
+[ the behavior of the front-end *IS* the "domain model". ]
+

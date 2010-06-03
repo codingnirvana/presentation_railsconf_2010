@@ -1,19 +1,19 @@
-!SLIDE  smaller
-
-    OG Consulting
-
-        "Green field" applications
-
-        startups to enterprise clients
-
 
 !SLIDE  smaller
 
-    OG Consulting
+    "Green field" applications
 
-        "Green field" applications
+!SLIDE  larger
 
-        the team behind multiple "3-2-1-Launch" projects at =>
+[ from startups to enterprise clients ]
+
+!SLIDE  larger
+
+[ the team behind some => "3-2-1-Launch" projects ]
+
+!SLIDE  larger
+
+[ the original "guest stars" ]
 
 !SLIDE
 

@@ -1,20 +1,24 @@
-!SLIDE  smaller
 
-    "Prototype" mindset:
+!SLIDE 
 
-       "We just need to get this mocked up enough to get 
-        some funding, then we can Do It For Real™"      
+    the "prototype" mindset
 
-!SLIDE
+!SLIDE larger
 
-[ often accompanied by "we've got it 80% done, 
-  just need someone to help with the last little bit" ]
+[ "We need to mock this up enough to get $$$" ]
 
+!SLIDE larger
 
-!SLIDE
+[ "then we can do it for real" ]
 
-[ see also, "this shouldn't take more than a couple weeks" ]
+!SLIDE larger
 
-!SLIDE
+[ "we've got it 80% done, just need someone to help with the last bit" ]
 
-[ it goes without saying, we have a "hard" deadline of 14.days.from_now ]
+!SLIDE larger
+
+[ "this shouldn't take more than a couple weeks" ]
+
+!SLIDE larger
+
+[ we have a "hard" deadline of 14.days.from_now ]

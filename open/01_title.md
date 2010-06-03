@@ -24,10 +24,10 @@
     http://railsconf2010.rickbradley.com/
 
 
-!SLIDE  smaller
+!SLIDE  larger
 
     OG Consulting
 
-        Nashville-based Ruby consultancy
+!SLIDE  larger
 
-                   . . . . . .         
+[ nashville-based ruby consultancy ]

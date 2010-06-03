@@ -1,22 +1,21 @@
-!SLIDE  smaller
+
+!SLIDE
 
     Lack of Domain Modeling 
 
-      Either a lack of skill at domain modeling
+!SLIDE larger
 
+[ lack skills at domain modeling ]
              
-!SLIDE  smaller
+!SLIDE larger
 
-    Lack of Domain Modeling 
+[ fail to expend effort on domain modeling ]
 
-      ... or a lack of effort at domain modeling
+!SLIDE larger
 
+[ simply don't understand the business domain ]
 
-!SLIDE  smaller
+!SLIDE larger
 
-    Lack of Domain Modeling 
-
-      ... or a misunderstanding of the business domain
-
-
+    \0/
 

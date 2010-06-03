@@ -1,3 +1,4 @@
+
 !SLIDE
 
     "shanty town" applications
@@ -28,7 +29,7 @@
 
 !SLIDE larger
 
-[ the motivations for forward motion are often making things worse ]
+[ the motivations often make things worse ]
 
 !SLIDE larger
 
