@@ -14,6 +14,13 @@
     polish a turd.
 
 
+<br/>
+<br/>
+
+<div class="larger">
+<a href="http://myrubyhurts.com/">myrubyhurts.com</a>
+</div>
+
 !SLIDE full-page
 
 <img src="og_logo.png">
