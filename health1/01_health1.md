@@ -4,15 +4,11 @@
 	Case Study 1:  
 	  healthcare
 	
-!SLIDE
+!SLIDE larger
 
 [ VC-funded healthcare startup]
 
-!SLIDE
-
-[ VC-funded healthcare startup]
-
-!SLIDE
+!SLIDE  larger
 
 [ team of contracted and hired developers ]
 	
@@ -32,7 +28,9 @@
     +----------------------+-------+-------+---------+---------+-----+-------+
       Code LOC: 8210     Test LOC: 3166     Code to Test Ratio: 1:0.4
 
-[ medium footprint ]
+
+
+    [ medium footprint ]
 
 
 !SLIDE  smallest
@@ -51,23 +49,35 @@
     +----------------------+-------+-------+---------+---------+-----+-------+
       Code LOC: 8210     Test LOC: 3166     Code to Test Ratio: 1:0.4
 
-[ small, worthless test suite ]
 
-!SLIDE 
+
+    [ small, worthless test suite ]
+
+!SLIDE  larger
 
 [ lots of emphasis on view work ]
 
-!SLIDE 
+!SLIDE larger
 
 [ slow AJAX interactions ]
 
-!SLIDE 
+!SLIDE larger
 
 [ main interface:  a 3-step "wizard" ]
 
-!SLIDE
+!SLIDE smaller
 
-[ sleeve of wizard ]
+<img src="sleeve_of_wizard.jpg" class="sleeve">
+
+<br/>
+
+                                        	[ sleeve of wizard ]
+
+<div class="photo-credits">
+ photo: <a href="http://www.flickr.com/photos/amoir/300675038/">amoir</a>
+</div>
+
+
 
 
 !SLIDE
