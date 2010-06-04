@@ -3,13 +3,14 @@
 
     Core data model
 
-!SLIDE larger
-
-[ tracking medical payments, bills, eob's, etc. ... ]
 
 !SLIDE larger
 
 [ the primary purpose of the application ]
+
+!SLIDE larger
+
+[ tracking medical payments, bills, eob's, etc. ... ]
 
 !SLIDE larger
 
@@ -31,7 +32,9 @@
       belongs_to :pre_tax_account
       belongs_to :deductible_expense
       belongs_to :user
-      has_many_polymorphs :associations, :from => [ :payments, :charges, :explanation_of_benefits ], :as => :associatable, :through => :associations_payments
+      has_many_polymorphs :associations, :from => [ :payments, :charges, 
+         :explanation_of_benefits ], :as => :associatable, 
+         :through => :associations_payments
       has_many    :notes, :as => :association, :order => 'filed_on'
       belongs_to  :health_issue_accepted_term, :foreign_key => 'health_issue_term_id', :class_name => 'AcceptedHealthTerm'
       before_save   :set_defaults
@@ -56,6 +59,8 @@
         'payments'
       end
 
+      # ...
+
 !SLIDE code smallest
 
     @@@ruby
@@ -68,7 +73,9 @@
       
       
       
-      has_many_polymorphs :associations, :from => [ :payments, :charges, :explanation_of_benefits ], :as => :associatable, :through => :associations_payments
+      has_many_polymorphs :associations, :from => [ :payments, :charges, 
+         :explanation_of_benefits ], :as => :associatable, 
+         :through => :associations_payments
       has_many    :notes, :as => :association, :order => 'filed_on'
       
       
@@ -93,6 +100,8 @@
         'payments'
       end
 
+      # ...    
+    
 !SLIDE code smallest
 
     @@@ruby
@@ -105,7 +114,9 @@
       FILED_BY_OPTIONS = ['Provider', 'Me', 'Not applicable']
       belongs_to :actual_servicetype, :class_name=>"Servicetype", :foreign_key=>"servicetype_id"
       belongs_to :user
-      has_many_polymorphs :associations, :from => [ :payments, :charges, :explanation_of_benefits ], :as => :associatable, :through => :associations_charges
+      has_many_polymorphs :associations, :from => [ :payments, :charges, 
+         :explanation_of_benefits ], :as => :associatable, 
+         :through => :associations_charges
       has_many    :notes, :as => :association, :order => 'filed_on'
       validates_presence_of :billed_on, :if => :step_three?
       validates_presence_of :amount_in_cents, :if => :step_three?
@@ -130,6 +141,7 @@
         'bills'
       end
     
+      # ...
 
 !SLIDE code smallest
 
@@ -143,7 +155,9 @@
       
       
       
-      has_many_polymorphs :associations, :from => [ :payments, :charges, :explanation_of_benefits ], :as => :associatable, :through => :associations_charges
+      has_many_polymorphs :associations, :from => [ :payments, :charges, 
+         :explanation_of_benefits ], :as => :associatable, 
+         :through => :associations_charges
       has_many    :notes, :as => :association, :order => 'filed_on'
       validates_presence_of :billed_on, :if => :step_three?
       validates_presence_of :amount_in_cents, :if => :step_three?
@@ -168,6 +182,8 @@
         'bills'
       end
 
+      # ...    
+    
 !SLIDE code smallest
 
     @@@ruby
@@ -178,7 +194,9 @@
       attr_human_name 'health_issue' => 'Reason for Visit'
       belongs_to :insurance  
       belongs_to :user
-      has_many_polymorphs :associations, :from => [ :payments, :charges, :explanation_of_benefits ], :as => :associatable, :through => :associations_eobs
+      has_many_polymorphs :associations, :from => [ :payments, :charges, 
+         :explanation_of_benefits ], :as => :associatable, 
+         :through => :associations_eobs
       has_many    :notes, :as => :association, :order => 'filed_on'
       validates_presence_of :date, :if => :step_three?
       validates_date :service_date, :if => :service_date?
@@ -200,7 +218,8 @@
       def self.controller_name
         'explanation_of_benefits'
       end
-    
+
+      # ...    
     
 !SLIDE code smallest
 
@@ -212,7 +231,9 @@
       
       
       
-      has_many_polymorphs :associations, :from => [ :payments, :charges, :explanation_of_benefits ], :as => :associatable, :through => :associations_eobs
+      has_many_polymorphs :associations, :from => [ :payments, :charges, 
+         :explanation_of_benefits ], :as => :associatable, 
+         :through => :associations_eobs
       has_many    :notes, :as => :association, :order => 'filed_on'
       validates_presence_of :date, :if => :step_three?
       validates_date :service_date, :if => :service_date?
@@ -235,6 +256,8 @@
         'explanation_of_benefits'
       end
 
+      # ...    
+    
 
 !SLIDE
 
@@ -253,7 +276,9 @@
       
       
       
-      has_many_polymorphs :associations, :from => [ :payments, :charges, :explanation_of_benefits ], :as => :associatable, :through => :associations_charges
+      has_many_polymorphs :associations, :from => [ :payments, :charges, 
+         :explanation_of_benefits ], :as => :associatable, 
+         :through => :associations_charges
       has_many    :notes, :as => :association, :order => 'filed_on'
       validates_presence_of :billed_on, :if => :step_three?
       validates_presence_of :amount_in_cents, :if => :step_three?
@@ -292,7 +317,9 @@
 
 
 
-      has_many_polymorphs :associations, :from => [ :payments, :charges, :explanation_of_benefits ], :as => :associatable, :through => :associations_payments
+      has_many_polymorphs :associations, :from => [ :payments, :charges, 
+         :explanation_of_benefits ], :as => :associatable, 
+         :through => :associations_payments
       has_many    :notes, :as => :association, :order => 'filed_on'
 
 
@@ -328,7 +355,9 @@
 
 
 
-      has_many_polymorphs :associations, :from => [ :payments, :charges, :explanation_of_benefits ], :as => :associatable, :through => :associations_eobs
+      has_many_polymorphs :associations, :from => [ :payments, :charges, 
+         :explanation_of_benefits ], :as => :associatable, 
+         :through => :associations_eobs
       has_many    :notes, :as => :association, :order => 'filed_on'
       validates_presence_of :date, :if => :step_three?
       validates_date :service_date, :if => :service_date?
@@ -350,4 +379,19 @@
       def self.controller_name
         'explanation_of_benefits'
       end
+
+!SLIDE smaller
+
+    Even blindly looking at code these models are 
+    clearly related.
+
+
+    Conceptually they're tightly related as well.
+
+
+    They should be in the same class hierarchy.
+
+
+    But changing the core of the application is 
+    hard to justify.
 
