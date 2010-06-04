@@ -5,6 +5,9 @@ body, #preso, .slide {
   margin: none;
 }
 
+a { text-decoration: none; color: #00b6d6; }
+a:visited { text-decoration: none; color: #00b6d6; }
+
 #opening_logo {
   position: absolute; 
   left: 710px; 
@@ -33,8 +36,9 @@ blockquote {
   width:  600px;
 }
 
-a { text-decoration: none; color: #00b6d6; }
-a:visited { text-decoration: none; color: #00b6d6; }
+.ddd {
+  text-align: center;
+}
 
 .photo-credits {
   position: absolute;

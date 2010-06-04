@@ -17,6 +17,10 @@
 
 [ classic "guru" on the team ]
 
+!SLIDE larger
+
+[ a wake of frothy guru magic ]
+
 
 !SLIDE  smallest
 
@@ -65,22 +69,5 @@
 
 !SLIDE larger
 
-[ slow AJAX interactions ]
-
-!SLIDE larger
-
-[ main interface:  a 3-step "wizard" ]
-
-!SLIDE smaller
-
-<img src="sleeve_of_wizard.jpg" class="sleeve">
-
-<br/>
-
-                                        	[ sleeve of wizard ]
-
-<div class="photo-credits">
- photo: <a href="http://www.flickr.com/photos/amoir/300675038/">amoir</a>
-</div>
-
+[ slow, complex, coupled, brittle AJAX interactions ]
 

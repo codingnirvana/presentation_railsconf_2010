@@ -411,6 +411,14 @@
       belongs_to :associations, :polymorphic => true
     end
 
+    class Payment < ActiveRecord::Base
+      # ...
+      has_many_polymorphs :associations, :from => [ :payments, :charges, 
+         :explanation_of_benefits ], :as => :associatable, 
+         :through => :associations_payments
+      # ...
+    end
+
 !SLIDE code smallest
 
     @@@ruby
@@ -429,6 +437,14 @@
     class AssociationsCharge < ActiveRecord::Base
       belongs_to :associatable, :class_name => 'Charge', :foreign_key => 'id'
       belongs_to :associations, :polymorphic => true
+    end
+
+    class Charge < ActiveRecord::Base
+      # ...
+      has_many_polymorphs :associations, :from => [ :payments, :charges, 
+         :explanation_of_benefits ], :as => :associatable, 
+         :through => :associations_charges
+      # ...
     end
 
 !SLIDE code smallest
@@ -451,8 +467,22 @@
       belongs_to :associations, :polymorphic => true
     end
 
+    class ExplanationOfBenefit < ActiveRecord::Base
+      # ...
+      has_many_polymorphs :associations, :from => [ :payments, :charges, 
+         :explanation_of_benefits ], :as => :associatable, 
+         :through => :associations_eobs
+      # ...
+    end
+
 !SLIDE larger
 
 [ TODO: domain model image ]
 [ TODO: domain model image with "associations" ]
 
+
+!SLIDE
+
+    even the linkages between them
+    suffer from failure to use OO
+    to help model related concepts
