@@ -5,7 +5,7 @@
 
 !SLIDE larger
 
-[ understand domain changes ]
+[ plot domain changes ]
 
 !SLIDE larger
 
