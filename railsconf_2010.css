@@ -26,12 +26,19 @@ blockquote {
   width:  450px;
 }
 
+.sleeve {
+  position: absolute;
+  top: 100px;
+  height: 450px;
+  width:  600px;
+}
+
 a { text-decoration: none; color: #00b6d6; }
 a:visited { text-decoration: none; color: #00b6d6; }
 
 .photo-credits {
   position: absolute;
-  top: 700px;
+  top: 720px;
   margin-bottom: 0px;
   padding-bottom: 0px;
   font-size: 1em;
