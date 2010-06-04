@@ -3,7 +3,7 @@
 
 	Case Study 1:  
 	  healthcare
-	
+
 !SLIDE larger
 
 [ VC-funded healthcare startup]
@@ -11,7 +11,13 @@
 !SLIDE  larger
 
 [ team of contracted and hired developers ]
-	
+
+
+!SLIDE  larger
+
+[ classic "guru" on the team ]
+
+
 !SLIDE  smallest
 
     +----------------------+-------+-------+---------+---------+-----+-------+
@@ -30,7 +36,7 @@
 
 
 
-    [ medium footprint ]
+    [ medium code footprint ]
 
 
 !SLIDE  smallest
@@ -55,7 +61,7 @@
 
 !SLIDE  larger
 
-[ lots of emphasis on view work ]
+[ focus on view work ]
 
 !SLIDE larger
 
@@ -77,14 +83,4 @@
  photo: <a href="http://www.flickr.com/photos/amoir/300675038/">amoir</a>
 </div>
 
-
-
-
-!SLIDE
-
-TODO:  claim/payment/eob data model
-
-!SLIDE
-
-TODO:  acts_as_Ass
 
