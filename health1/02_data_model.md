@@ -16,10 +16,6 @@
 
 [ mis-modelled. ]
 
-!SLIDE full-page
-
-[ TODO: domain model image ]
-
 !SLIDE code smallest
 
     @@@ruby
@@ -394,4 +390,69 @@
 
     But changing the core of the application is 
     hard to justify.
+
+!SLIDE code smallest
+
+    @@@ruby
+
+    # == Schema Information
+    # Schema version: 473
+    #
+    # Table name: associations_payments
+    #
+    #  id               :integer(11)   not null, primary key
+    #  associatable_id  :integer(11)   
+    #  association_id   :integer(11)   
+    #  association_type :string(255)   
+    #
+    
+    class AssociationsPayment < ActiveRecord::Base
+      belongs_to :associatable, :class_name => 'Payment', :foreign_key => 'id'
+      belongs_to :associations, :polymorphic => true
+    end
+
+!SLIDE code smallest
+
+    @@@ruby
+
+    # == Schema Information
+    # Schema version: 473
+    #
+    # Table name: associations_charges
+    #
+    #  id               :integer(11)   not null, primary key
+    #  associatable_id  :integer(11)   
+    #  association_id   :integer(11)   
+    #  association_type :string(255)   
+    #
+    
+    class AssociationsCharge < ActiveRecord::Base
+      belongs_to :associatable, :class_name => 'Charge', :foreign_key => 'id'
+      belongs_to :associations, :polymorphic => true
+    end
+
+!SLIDE code smallest
+
+    @@@ ruby 
+    
+    # == Schema Information
+    # Schema version: 473
+    #
+    # Table name: associations_eobs
+    #
+    #  id               :integer(11)   not null, primary key
+    #  associatable_id  :integer(11)   
+    #  association_id   :integer(11)   
+    #  association_type :string(255)   
+    #
+    
+    class AssociationsEob < ActiveRecord::Base
+      belongs_to :associatable, :class_name => 'ExplanationOfBenefit', :foreign_key => 'id'
+      belongs_to :associations, :polymorphic => true
+    end
+
+!SLIDE larger
+
+[ TODO: domain model image ]
+[ TODO: domain model image with "associations" ]
 

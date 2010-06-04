@@ -1,7 +1,7 @@
 
 !SLIDE larger
 
-	Case Study 1:  
+	Case Study:  
 	  healthcare
 
 !SLIDE larger
