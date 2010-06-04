@@ -15,7 +15,7 @@
      
                                     
      aka: a journey                rick bradley
-          into dank                OG Consulting
+          into the dank            OG Consulting
           to save 
           your stank       
           (app)                      
