@@ -5,6 +5,9 @@ This is a  [showoff](http://github.com/schacon/showoff) presentation.
     cd presentation_railsconf_2010
     showoff serve
 
+Or, you can run it via rack (e.g., using Passenger) by just installing the showoff gem
+and pointing to the rackup file (config.ru).
+
 All original content is made available under a Creative Commons Attribution-Share Alike 3.0 License.
 Content from other sources is governed by any licenses imposed by the respective authors.
 
