@@ -10,7 +10,7 @@ and pointing to the rackup file (config.ru).
 
 I may have a copy live and running here:
 
-    [http://railsconf2010.rickbradley.com/](http://railsconf2010.rickbradley.com/)
+[http://railsconf2010.rickbradley.com/](http://railsconf2010.rickbradley.com/)
 
 All original content is made available under a Creative Commons Attribution-Share Alike 3.0 License.
 Content from other sources is governed by any licenses imposed by the respective authors.
