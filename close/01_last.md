@@ -1,3 +1,15 @@
+!SLIDE
+
+    mad props:
+
+    ericevans (ddd)
+    mfeathers (legacy code)
+    schacon (showoff)
+    zenspider (flog)
+    u ba khin (dhamma)
+    cardioid & vinbarnes (ogc)
+    ali (everything)
+
 !SLIDE full-page
 
 <div class="video">
