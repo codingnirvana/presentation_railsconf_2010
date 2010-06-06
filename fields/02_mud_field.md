@@ -4,7 +4,7 @@
         "mud field" applications
 
         what was once a green field is now
-        a muddy mess, without being in production
+        a muddy bog, not in "production"
 
 !SLIDE  larger
 
@@ -28,4 +28,4 @@
 
 !SLIDE larger
 
-[ but there are always core problems that keep it from "launching" ]
+[ usually persistent problems preventing "launch" ]
