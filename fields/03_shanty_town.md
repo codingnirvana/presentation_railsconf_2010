@@ -31,18 +31,40 @@
 
 [ the motivations often make things worse ]
 
-!SLIDE larger
+!SLIDE
 
-[ "sell to our competitors" ] 
+    "sell to our competitors"
 
-!SLIDE larger
+!SLIDE
 
-[ "eradicate the old system" ]
+    "sell to our competitors"
+    
+    
+    
+    "eradicate the old system"
 
-!SLIDE larger
+!SLIDE
 
-[ "take our company public" ]
+    "sell to our competitors"   
+    
+    
+         "take the company public!"
+    
+    
+    
+    "eradicate the old system"
 
-!SLIDE larger
+!SLIDE
 
-[ "this shit is great" ]
+    "sell to our competitors"   
+    
+    
+         "take the company public!"
+
+
+
+    "eradicate the old system"    
+    
+    
+               "this shit is great!"
+
