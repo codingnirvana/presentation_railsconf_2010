@@ -53,6 +53,10 @@
 
 !SLIDE
 
+    [ TODO:  describe acts_as_ass model functionality ]
+
+!SLIDE
+
     looking for acts_as_ass elsewhere
     it turned up in CONTROLLERS(!)
 
