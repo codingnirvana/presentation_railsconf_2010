@@ -40,6 +40,12 @@
     http://railsconf2010.rickbradley.com/
 
 
+
+    Background talk:
+
+    http://tinyurl.com/flogtalk
+
+
 !SLIDE  larger
 
     OG Consulting
