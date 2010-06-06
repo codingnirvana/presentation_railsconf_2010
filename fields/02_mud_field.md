@@ -29,7 +29,3 @@
 !SLIDE larger
 
 [ but there are always core problems that keep it from "launching" ]
-
-!SLIDE larger
-
-[ often it would be best to just kill the project ]
