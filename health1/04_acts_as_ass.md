@@ -178,6 +178,75 @@
 !SLIDE code smallest
 
     @@@ruby
+    
+    def associate( association, options = {} )
+      return false unless association &&
+                          association.account_id == self.account_id &&
+                          association.uniq_id != self.uniq_id
+      options = { :update_record => true }.merge( options )
+      self.associations.each do |a|
+        if association.uniq_id == a.uniq_id
+          return false
+        end
+      end
+      associations << association
+      self.save_with_validation false
+      association.associate( self, :update_record => false )
+      self.save_with_validation false
+      if options[:update_record]
+        if self.record
+          self.record.update_build() if self.record
+        else
+          self.record = Record.build_with self
+        end
+      end
+    end
+    
+    def unassociate( association )
+      associations.base_class.destroy_all [ 'association_type = ? AND association_id = ?', association.class.to_s, association.id ]
+      association.associations.base_class.destroy_all [ 'association_type = ? AND association_id = ?', self.class.to_s, self.id ]
+      update_attribute( :record_id, Record.build_with( self.class.find( self.id ) ).id )
+      association.update_attribute( :record_id, Record.build_with( association ).id )
+    end
+
+!SLIDE code smallest
+
+    @@@ruby
+    
+    def associate( association, options = {} )
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      # !!! RECURSION IN A MODEL METHOD IN A PLUGIN !!!      
+      
+      association.associate( self, :update_record => false )
+      
+      # HOLY #$^@@#%@# #$^@$%^@ !!!!
+      
+      
+      
+      
+      
+      
+    end
+    
+    def unassociate( association )
+    
+    
+    
+    
+    end
+
+
+!SLIDE code smallest
+
+    @@@ruby
     protected
 
       def create_my_record
