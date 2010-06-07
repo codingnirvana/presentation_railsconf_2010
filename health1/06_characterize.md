@@ -193,4 +193,3 @@
 !SLIDE full-page
 
 <img src="cleanup.png" width="550">
-                      :joins => 'JOIN accepted_health_terms ON (payments.health_issue_term_id = accepted_health_terms.id ) JOIN health_terms ON (accepted_health_terms.health_term_id = health_terms.id )',    

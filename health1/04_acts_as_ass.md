@@ -439,16 +439,7 @@
          @#{options[:param]}.step = 2
        end
      END
-    
-!SLIDE
 
-    So this is just a controller Module 
-    instead of using inheritance.
-
-    Aversion to inheritance is causing
-    much pain.
-
-    Way to go, "guru".
 
 !SLIDE code smallest
     @@@ruby
@@ -457,24 +448,33 @@
         def new
           # ...
         end
-    
+
         def step_two
           # ...
         end
-    
+
         def step_three
           # ...
         end           
-    
+
         def edit
           # ...
         end
-    
+
         def chain
           # ...
         end
       END
-    end
+    end    
+
+!SLIDE
+
+    So this is just a controller Module 
+    instead of using inheritance.
+
+    Aversion to inheritance is causing
+    much pain.
+
 
 !SLIDE larger
 

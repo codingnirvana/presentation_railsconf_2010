@@ -13,9 +13,9 @@
 
     3. Collecting and aggregating data by a 3-step process
 
-!SLIDE larger
+!SLIDE full-page
 
-[ TODO:  corrected domain model image ]
+<img src="domain_clean.png" class="clean">
 
 !SLIDE larger
 
