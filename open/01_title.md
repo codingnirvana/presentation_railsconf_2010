@@ -29,6 +29,20 @@
 
 !SLIDE smaller
 
+    The rules of the talk:
+
+      * I am going *FAST*
+
+      * but you can follow on your laptop
+      * and access the presentation online
+      * it's impossible to read code on slides
+      * so I'm going to do my best
+
+      * and I will go FAST to maximize the amount
+        of information I can deliver.
+
+!SLIDE smaller
+
     Slides:
 
     http://github.com/rick/presentation_railsconf_2010
