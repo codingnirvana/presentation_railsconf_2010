@@ -149,6 +149,75 @@
 <img src="acts_as_ass_textmate.png">
     
 
+!SLIDE code smallest
+
+    @@@ruby
+    module ActsAsAssociatable
+      # ...
+      module AddActsAs
+        # ... 
+        def acts_as_associatable( options = {} )
+          attr_accessor :step
+    
+          belongs_to :record
+          # ...
+          #validates_presence_of :record_id, :if => :step_three?
+          #validates_associated :record, :if => :step_three?
+    
+          validates_presence_of :health_issue_term_id, :if => :step_three?
+    
+          after_create :create_my_record
+          after_update :update_my_record
+          after_destroy :rebuild_my_record
+          # ...
+        end
+      end
+
+      # ...
+
+!SLIDE code smallest
+
+    @@@ruby
+    protected
+
+      def create_my_record
+        self.user.use_health_issue_term_id( self.health_issue_term_id ) if self.user
+        # this is true only for charges(bills)
+        # TODO cleaner than rescue?
+        if (!self.servicetype.blank? rescue false)
+          self.user.use_servicetype( self.servicetype ) if self.user
+        end
+        Record.build_with( self ) unless self.record
+        self.record.update_attribute( :mileage, @mileage ) if @mileage
+      end
+    
+      def rebuild_my_record
+        if self.record
+          self.record.update_build
+        else
+          Record.build_with(self) if Record.respond_to?(:build_with)
+        end
+      end
+    
+      def update_my_record
+        self.user.use_health_issue_term_id( self.health_issue_term_id ) if self.user
+        # this is true only for charges(bills)
+        # TODO cleaner than rescue?
+        if (!self.servicetype.blank? rescue false)
+          self.user.use_servicetype( self.servicetype ) if self.user
+        end
+        # ...
+        if self.record
+          self.record.update_summaries 
+          self.record.mileage = @mileage if @mileage
+          self.record.save_with_validation false
+        end
+      end
+
+!SLIDE full-page
+
+<img src="WTF-1.png">
+
 !SLIDE
 
     looking for acts_as_ass elsewhere
