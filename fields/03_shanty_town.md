@@ -66,5 +66,5 @@
     "eradicate the old system"    
     
     
-               "this shit is great!"
+       "we have to own our platform"
 
