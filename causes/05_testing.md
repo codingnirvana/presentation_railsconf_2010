@@ -1,7 +1,7 @@
 
 !SLIDE
 
-    Testing 
+    4. testing
 
 !SLIDE larger
 
@@ -9,13 +9,29 @@
              
 !SLIDE larger
 
-[ a smattering of useless tests ]
+[ or a smattering of useless tests ]
 
 !SLIDE larger
 
-[ not enough coverage to refactor ]
+[ or what could be a good suite runs too slowly ]
 
 !SLIDE larger
 
-[ shitcode due to lack of TDD ]
+[ leaving it abandoned ]
+
+!SLIDE larger
+
+[ possibly very very broken ]
+
+!SLIDE larger
+
+[ ... usually not enough coverage to refactor ]
+
+!SLIDE larger
+
+[ with the side-effect ]
+
+!SLIDE larger
+
+[ ... of shitcode due to lack of TDD ]
 

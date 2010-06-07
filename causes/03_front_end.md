@@ -1,15 +1,7 @@
 
 !SLIDE
 
-    Front-end is King
-
-!SLIDE larger
-
-[ "We spent $30K on graphic design and HTML ... "]
-
-!SLIDE larger
-
-["and we've got $5K left to get some coding done."]
+    2. the front-end is king
 
 !SLIDE larger
 

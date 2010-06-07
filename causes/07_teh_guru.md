@@ -1,7 +1,7 @@
 
 !SLIDE
 
-    teh guru
+    6. teh guru
 
 !SLIDE larger
 
@@ -17,5 +17,5 @@
 
 !SLIDE larger
 
-[ fortunately these guys get hired away ]
+[ ironically, and fortunately, these guys get hired away ]
 

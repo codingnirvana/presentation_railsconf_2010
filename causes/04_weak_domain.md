@@ -1,29 +1,50 @@
 
 !SLIDE
 
-    Lack of Domain Modeling 
+    3. weak domain modeling
 
 !SLIDE larger
 
-[ lack skills at domain modeling ]
-             
-!SLIDE larger
-
-[ fail to expend effort on domain modeling ]
+[ can mock an app without getting the domain right ]
 
 !SLIDE larger
 
-[ simply don't understand the business domain ]
+[ many businesses have never heard of domain modeling ]
 
 !SLIDE larger
 
-           \0/
+[ domain modeling is not widely taught ]
+
+!SLIDE larger
+
+[ no focus on modeling give a bad domain model ]
+
+!SLIDE larger
+
+[ domain modeling can be very difficult ]
+
+!SLIDE larger
+
+[ the business often doesn't understand itself ]
 
 !SLIDE full-page
+
+    [ so what appears to be one thing ]
+
+<br/>
+<br/>
+<br/>
+<br/>
 
 <img src="101sssb.png">
 
 !SLIDE full-page
 
+    [ is often really something very different ]
+
+<br/>
+<br/>
+<br/>
+<br/>
 <img src="trebek.png">
 

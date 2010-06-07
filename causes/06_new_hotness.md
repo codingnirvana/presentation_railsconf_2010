@@ -1,7 +1,11 @@
 
 !SLIDE
 
-    The New Hotness™ 
+    5. The New Hotness™ 
+
+!SLIDE larger
+
+[ projects with ]
 
 !SLIDE larger
 
@@ -22,7 +26,3 @@
 !SLIDE larger
 
 [ the project is the playground ]
-
-!SLIDE larger
-
-[ kids in need of a park ]
