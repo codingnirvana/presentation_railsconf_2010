@@ -40,6 +40,21 @@ blockquote {
   text-align: center;
 }
 
+.association {
+  height: 600px;
+  width:  450px;
+}
+
+.big_association {
+  height: 600px;
+  width:  700px;
+}
+
+.clean {
+  height: 600px;
+  width:  450px;
+}
+
 .photo-credits {
   position: absolute;
   top: 720px;

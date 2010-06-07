@@ -1,6 +1,47 @@
 
 !SLIDE
 
+    Conceptually, the business needs are simple
+
+!SLIDE larger
+
+[ track information about the flows of money related to clinical visits ]
+
+!SLIDE larger
+
+[ make it easy for the user to enter the details for each financial entry ]
+
+!SLIDE larger
+
+[ make it easy for the user to "associate" related entries to one another ]
+
+!SLIDE larger
+
+[ then slice and dice the data to guide the user to better healthcare ]
+
+
+!SLIDE
+
+     Using proper OO and DDD techniques, 
+     the domain model should be simple.
+
+!SLIDE full-page
+
+<img src="domain_clean.png" class="clean">
+
+!SLIDE
+
+    A pathological aversion to subclassing began 
+    the descent into domain model madness.
+
+!SLIDE
+
+    A fixation on the "hotness" of writing plugins
+    Sealed the deal.
+
+
+!SLIDE
+
     Acts as Ass
 
 !SLIDE code smallest
@@ -23,6 +64,22 @@
 
     @@@ruby
 
+    class Payment < ActiveRecord::Base
+      # ...
+      acts_as_associatable
+      # ...
+      
+      
+      
+      
+      
+      
+    end
+
+!SLIDE code smallest
+
+    @@@ruby
+
     class Charge < ActiveRecord::Base
       # ...
       acts_as_associatable
@@ -33,6 +90,22 @@
       # ...
       has_many    :notes, :as => :association, :order => 'filed_on'
       # ...
+    end
+
+!SLIDE code smallest
+
+    @@@ruby
+
+    class Charge < ActiveRecord::Base
+      # ...
+      acts_as_associatable
+      # ...
+      
+      
+      
+      
+      
+      
     end
 
 !SLIDE code smallest
@@ -51,9 +124,30 @@
       # ...
     end
 
-!SLIDE
 
-    [ TODO:  describe acts_as_ass model functionality ]
+!SLIDE code smallest
+
+    @@@ruby
+
+    class ExplanationOfBenefit < ActiveRecord::Base
+      # ...
+      acts_as_associatable
+      # ...
+      
+      
+      
+	    
+      
+      
+    end
+
+
+    
+
+!SLIDE full-page
+
+<img src="acts_as_ass_textmate.png">
+    
 
 !SLIDE
 
@@ -208,10 +302,6 @@
 <div class="ddd">
 	<a href="http://domaindrivendesign.org/books#DDD"><img src="ddd_cover.jpg"></a>
 </div>
-
-!SLIDE full-page
-
-<img src="acts_as_ass_textmate.png">
 
 
 !SLIDE code smallest

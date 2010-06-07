@@ -391,6 +391,128 @@
     But changing the core of the application is 
     hard to justify.
 
+
+!SLIDE smaller
+
+    But the conceptual scoping to clinical visits
+    is confused with a trivial concern about taxable
+    mileage(!) and burying arbitrary reporting into
+    a "Record" (a meaningless concept name).
+
+!SLIDE code smallest
+
+    @@@ruby
+    class Record < ActiveRecord::Base
+      # ...
+      has_many    :charges, :order => 'billed_on', 
+                    :after_add => :update_amount_billed, :after_remove => :update_amount_billed
+      has_many    :explanations_of_benefits, :class_name => 'ExplanationOfBenefit', :order => 'date',
+                    :after_add => :update_insurance_summaries, :after_remove => :update_insurance_summaries
+      has_many    :notes, :as => :association, :order => 'filed_on'
+      has_many    :payments, :order => 'paid_on',
+                    :after_add => :update_amount_paid,   :after_remove => :update_amount_paid
+      # ...      
+      def self.controller_name
+        'records'
+      end
+    
+      def controller_name
+        self.class.controller_name
+      end
+      
+      def note_summary
+        "TODO / FIXME"
+      end
+
+      # ... continued ...
+
+!SLIDE code smallest
+    @@@ruby
+    def self.build_with( source )
+      # ...
+      collected = self.collect_associations( { source.uniq_id => source } )
+      record = Record.new
+      record.account_id = source.account_id
+      record.save_with_validation false
+      records = []
+
+      collected.each { |key,c|
+        records << c.record_id if c.record_id
+        c.record_id = record.id
+        c.save_with_validation false
+      }
+
+      records.uniq!
+      record.mileage = 0
+      records.each do |record_id|
+        record.mileage += Record.find( record_id ).mileage rescue 0
+        ( Record.destroy( record_id ) rescue nil ) unless record_id == record.id
+      end
+
+      record.update_build
+      record
+    end
+    # ...
+
+    # Returns an array with all associated Charges, Payments, and Explanations of Benefits
+    def associations
+      associations = (self.charges.to_a + self.payments.to_a + self.explanations_of_benefits.to_a)
+      associations.sort do |one, other| 
+        if one.occurred_on && other.occurred_on
+          one.occurred_on <=> other.occurred_on
+        else
+          one.id <=> other.id
+        end
+      end
+    end
+
+
+!SLIDE code smallest
+    @@@ruby
+    def update_build
+      collected = {}
+      ( Payment.find( :all, :conditions => [ 'record_id = ?', self.id ], :include => [:record] ) + Charge.find( :all, :conditions => [ 'record_id = ?', self.id ], :include => [:record] ) + ExplanationOfBenefit.find( :all, :conditions => [ 'record_id = ?', self.id ], :include => [:record] ) ).each do |a|
+        collected.merge!( { a.uniq_id => a } )
+      end
+      collected = self.class.collect_associations( collected )
+
+      self.payments = []
+      self.charges = []
+      self.explanations_of_benefits = []
+      records = []
+
+      collected.each { |key,c|
+        records << c.record_id if c.record_id
+        c.record_id = self.id
+        self.payments << c if c.kind_of?( Payment )
+        self.explanations_of_benefits << c if c.kind_of?( ExplanationOfBenefit )
+        self.charges << c if c.kind_of?( Charge )
+        c.save_with_validation false
+      }
+
+      records.uniq!
+      self.mileage = 0
+      records.each do |record_id|
+        self.mileage += Record.find( record_id ).mileage rescue 0
+        ( Record.destroy( record_id ) rescue nil ) unless record_id == self.id
+      end
+
+      self.save_with_validation false
+
+      self.update_summaries
+      self.save_with_validation false
+    end
+
+!SLIDE
+
+
+    The Record is stuck managing
+    building and tearing down associations
+    between different financial entries
+    because the linkages between them
+    suffer from lack of OO design.
+
+
 !SLIDE code smallest
 
     @@@ruby
@@ -418,6 +540,10 @@
          :through => :associations_payments
       # ...
     end
+
+!SLIDE full-page
+
+<img src="association_2.png" class="association">
 
 !SLIDE code smallest
 
@@ -447,6 +573,10 @@
       # ...
     end
 
+!SLIDE full-page
+
+<img src="association_3.png" class="association">
+
 !SLIDE code smallest
 
     @@@ ruby 
@@ -475,14 +605,18 @@
       # ...
     end
 
-!SLIDE larger
+!SLIDE full-page
 
-[ TODO: domain model image ]
-[ TODO: domain model image with "associations" ]
+<img src="association_1.png" class="association">
 
 
 !SLIDE
 
-    even the linkages between them
-    suffer from failure to use OO
-    to help model related concepts
+    Putting this all together, 
+    the core of the application
+    is a *mess*
+
+!SLIDE full-page
+
+<img src="association_4.png" class="big_association">
+
