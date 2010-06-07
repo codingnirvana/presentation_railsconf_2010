@@ -36,8 +36,8 @@
 
 !SLIDE
 
-    A fixation on the "hotness" of writing plugins
-    Sealed the deal.
+    A fixation on the "hotness" of writing 
+    plugins sealed the deal.
 
 
 !SLIDE
