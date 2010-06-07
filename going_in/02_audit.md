@@ -1,21 +1,37 @@
 
 !SLIDE
 
-    client audit
+    do a client audit
 
 !SLIDE larger
 
-[ where is this thing going? ]
+[ an immersive site visit ]
 
 !SLIDE larger
 
-[ what's the problem? ]
+[ both suits and geeks ]
 
 !SLIDE larger
 
-[ why'd you call us? ]
+[ "where is this thing going?" ]
+
+!SLIDE larger
+
+[ "what's the problem?" ]
+
+!SLIDE larger
+
+[ "why'd you call us?" ]
 
 !SLIDE larger
 
 [ start talking about the domain ]
+
+!SLIDE larger
+
+[ find a path to contribute ]
+
+!SLIDE larger
+
+[ safely, while learning the system ]
 

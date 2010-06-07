@@ -9,7 +9,7 @@
 
 !SLIDE larger
 
-[ focused refactoring at feature-critical points ]
+[ focus on feature-critical points ]
 
 !SLIDE larger
 

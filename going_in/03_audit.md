@@ -1,7 +1,11 @@
 
 !SLIDE
 
-    code audit
+    do a code audit
+
+!SLIDE larger
+
+[ explicitly or implicitly ]
 
 !SLIDE larger
 
