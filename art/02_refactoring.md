@@ -211,14 +211,14 @@
     helper methods on the model of
     interest.
 
-!SLIDE
+!SLIDE larger
 
 [ 300-500ms page load times on critical controller ]
 
-!SLIDE
+!SLIDE larger
 
 [ server load significantly reduced ]
 
-!SLIDE 
+!SLIDE larger
 
 [ improved code in tests in hot-spot areas ]
