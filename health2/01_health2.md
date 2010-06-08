@@ -55,7 +55,7 @@
 
 !SLIDE larger
 
-[ spike: used textual refactoring to "refactor" ]
+[ spike: used textual reorganizaion to "refactor" ]
 
 !SLIDE larger
 
@@ -79,7 +79,7 @@
 
 !SLIDE larger
 
-[ developed TDD from the spike-informd specs ]
+[ developed TDD from the spike-informed specs ]
 
 !SLIDE full-page
 

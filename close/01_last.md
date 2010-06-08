@@ -2,10 +2,10 @@
 
     mad props:
 
-    ericevans (ddd)
+    rubyconf crew
     mfeathers (legacy code)
+    ericevans (ddd)
     schacon (showoff)
-    zenspider (flog)
     u ba khin (dhamma)
     cardioid & vinbarnes (ogc)
     ali (everything)
