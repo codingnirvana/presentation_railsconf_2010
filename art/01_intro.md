@@ -4,7 +4,7 @@
     Case Study:
       art contest
 
-!SLIDE
+!SLIDE larger
 
 [ hold apparel art contests ]
 
@@ -39,6 +39,14 @@
 !SLIDE larger
 
 [ used newrelic to track HOT SPOTS in production ]
+
+!SLIDE 	
+
+    Removed an entire subsystem related 
+    to A/B testing experiments, which was 
+    adding overhead to every request.
+
+    The "data" was never used.
 
 !SLIDE larger
 
