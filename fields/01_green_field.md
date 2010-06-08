@@ -9,11 +9,11 @@
 
 !SLIDE  larger
 
-[ the team behind some => "3-2-1-Launch" projects ]
+[ the original "guest stars" ]
 
 !SLIDE  larger
 
-[ the original "guest stars" ]
+[ behind some => "3-2-1-Launch" projects ]
 
 !SLIDE
 

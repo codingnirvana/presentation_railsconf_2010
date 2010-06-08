@@ -180,7 +180,7 @@
 
 !SLIDE code smallest
     @@@ruby
-    def available_xxxxs_init
+    def available_products_init
       params[:category] = parse_category(params[:category])
       
       popular_sales, popular_xxxx, weekly, monthly = parse_popularity(params[:popularity])

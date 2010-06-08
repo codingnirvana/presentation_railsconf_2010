@@ -394,6 +394,11 @@
 
 !SLIDE smaller
 
+    Turns out there is a lot of infrastructure
+    here related to making sure these various
+    "ledger entries" are grouped together if
+    they are part of the same medical visit.
+
     But the conceptual scoping to clinical visits
     is confused with a trivial concern about taxable
     mileage(!) and burying arbitrary reporting into

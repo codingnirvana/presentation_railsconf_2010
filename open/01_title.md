@@ -31,28 +31,33 @@
 
     The rules of the talk:
 
-      * I am going *FAST*
-
-      * but you can follow on your laptop
-      * and access the presentation online
-      * it's impossible to read code on slides
-      * so I'm going to do my best
-
-      * and I will go FAST to maximize the amount
-        of information I can deliver.
+        I will be going *FAST*
+        but you might be able to follow on 
+        your laptop via the online presentation.
+        
+        I know it's difficult to read code on slides,
+        but code is key here, so I'm going to
+        try this and I will go FAST to maximize 
+        the amount of ground we cover.
 
 !SLIDE smaller
 
-    Slides:
 
-    http://github.com/rick/presentation_railsconf_2010
-
-
-
-    Live:
+    Live presentation:
 
     http://railsconf2010.rickbradley.com/
 
+
+    Local live presentation:
+
+    http://10.10.10.10:9090/
+
+
+
+
+    Slides on github:
+
+    http://github.com/rick/presentation_railsconf_2010
 
 
     Background talk:
@@ -63,6 +68,11 @@
 !SLIDE  larger
 
     OG Consulting
+
+!SLIDE  larger
+
+    OG Consulting
+    @ogconsulting
 
 !SLIDE  larger
 
