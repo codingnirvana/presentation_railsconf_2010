@@ -82,16 +82,4 @@
 
 [ central user interface:  a 3-step "wizard" for entering these ]
 
-!SLIDE smaller
-
-<img src="sleeve_of_wizard.jpg" class="sleeve">
-
-<br/>
-
-                                        	[ sleeve of wizard ]
-
-<div class="photo-credits">
- photo: <a href="http://www.flickr.com/photos/amoir/300675038/">amoir</a>
-</div>
-
 
