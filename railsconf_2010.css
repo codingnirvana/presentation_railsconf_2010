@@ -3,6 +3,8 @@ body, #preso, .slide {
   color: #00b6d6;
   border: none;
   margin: none;
+  width: 100%;
+  font-size: 80%;
 }
 
 a { text-decoration: none; color: #00b6d6; }
